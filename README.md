@@ -41,6 +41,7 @@ The analysis is based on monthly aggregated user revenue.
     - Revenue Churn Rate;
     - Expansion MRR;
     - Contraction MRR.
+
   
 
 **Example SQL snippet:**
