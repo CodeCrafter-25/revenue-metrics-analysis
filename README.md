@@ -41,7 +41,44 @@ The analysis is based on monthly aggregated user revenue.
     - Revenue Churn Rate;
     - Expansion MRR;
     - Contraction MRR.
+  
 
+**Example SQL snippet:**
+
+```  
+WITH monthly_revenue AS (
+    SELECT
+        DATE_TRUNC('month', gp.payment_date)::date AS payment_month,
+        gp.user_id,
+        gp.game_name,
+        SUM(gp.revenue_amount_usd) AS total_revenue
+    FROM project.games_payments gp
+    GROUP BY 1, 2, 3
+),
+
+user_activity AS (
+    SELECT
+        mr.payment_month,
+        mr.user_id,
+        mr.game_name,
+        mr.total_revenue,
+        (mr.payment_month - INTERVAL '1 month')::date AS previous_calendar_month,
+        (mr.payment_month + INTERVAL '1 month')::date AS next_calendar_month,
+        LAG(mr.payment_month) OVER (
+            PARTITION BY mr.user_id
+            ORDER BY mr.payment_month
+        ) AS previous_paid_month,
+        LEAD(mr.payment_month) OVER (
+            PARTITION BY mr.user_id
+            ORDER BY mr.payment_month
+        ) AS next_paid_month,
+        LAG(mr.total_revenue) OVER (
+            PARTITION BY mr.user_id
+            ORDER BY mr.payment_month
+        ) AS previous_paid_month_revenue
+    FROM monthly_revenue mr
+),
+```
 --- 
 
 ## Logic Highlights
