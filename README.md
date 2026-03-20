@@ -106,3 +106,22 @@ user_activity AS (
 - Age;
 - Device type;
 - Game name.
+
+--- 
+
+## Repository Structure
+
+```
+revenue-metrics-analysis
+│
+├── README.md
+│
+├── data
+│   └── 
+│
+├── sql
+│   └── revenue_metrics.sql
+│
+└── dashboard
+    └── 
+```
