@@ -1,6 +1,21 @@
 # Revenue Metrics Analysis
 
-Revenue Metrics Analysis analysis using SQL and Tableau
+Revenue Metrics Analysis using SQL and Tableau
+
+--- 
+# Project Status
+
+Current status: SQL analysis completed.
+
+The main SQL query calculates monthly revenue metrics, including MRR, Paid Users, ARPPU, New MRR, Churned Revenue, Churn Rate, Revenue Churn Rate, Expansion MRR, and Contraction MRR.
+
+Next steps:
+
+- Review and validate the SQL results;
+- Export the final dataset for Tableau;
+- Build the dashboard layout;
+- Add dashboard screenshots;
+- Publish the final Tableau dashboard link.
 
 --- 
 
