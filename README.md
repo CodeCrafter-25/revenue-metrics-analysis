@@ -1,6 +1,6 @@
 # Revenue Metrics Analysis
 
-Revenue Metrics Analysis nalysis using SQL and Tableau
+Revenue Metrics Analysis analysis using SQL and Tableau
 
 --- 
 
