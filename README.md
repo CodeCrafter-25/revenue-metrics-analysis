@@ -141,3 +141,12 @@ revenue-metrics-analysis
 └── dashboard
     └── 
 ```
+
+## Dashboard Progress
+
+### MRR and Paid Users Trend
+
+This chart shows monthly MRR as bars and Paid Users as a line.  
+It helps compare revenue growth with the number of paying users over time.
+
+![MRR and Paid Users Trend](images/mrr_paid_users_trend.png)
