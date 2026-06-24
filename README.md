@@ -150,3 +150,11 @@ This chart shows monthly MRR as bars and Paid Users as a line.
 It helps compare revenue growth with the number of paying users over time.
 
 ![MRR and Paid Users Trend](images/mrr_paid_users_trend.png)
+
+
+### ARPPU by Month
+
+This chart shows the average revenue per paid user by month.  
+ARPPU was calculated as `SUM(mrr) / SUM(paid_users)` to avoid incorrectly summing an average metric.
+
+![ARPPU by Month](images/arppu_by_month.png)
