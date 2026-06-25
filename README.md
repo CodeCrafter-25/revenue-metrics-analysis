@@ -158,3 +158,12 @@ This chart shows the average revenue per paid user by month.
 ARPPU was calculated as `SUM(mrr) / SUM(paid_users)` to avoid incorrectly summing an average metric.
 
 ![ARPPU by Month](images/arppu_by_month.png)
+
+
+
+Add new MRR and new paid users visualization
+
+Added a dual-axis Tableau chart showing New MRR as bars and New Paid Users as a line. Updated README with chart description and dashboard progress.
+
+images/new_mrr_new_paid_users.png
+README.md
