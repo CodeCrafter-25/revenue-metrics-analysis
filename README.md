@@ -161,9 +161,19 @@ ARPPU was calculated as `SUM(mrr) / SUM(paid_users)` to avoid incorrectly summin
 
 
 
-Add new MRR and new paid users visualization
+### Add new MRR and new paid users visualization
 
 Added a dual-axis Tableau chart showing New MRR as bars and New Paid Users as a line. Updated README with chart description and dashboard progress.
 
 images/new_mrr_new_paid_users.png
 README.md
+
+
+### Churned Revenue and Churned Users
+
+This dual-axis chart shows monthly churned revenue as bars and churned users as a line.
+It helps compare how much revenue was lost due to churn and how many users stopped paying over time.
+
+The first month was excluded from the chart because churn requires a previous month for comparison.
+
+![Churned Revenue and Churned Users](images/churned_revenue_churned_users.png)
