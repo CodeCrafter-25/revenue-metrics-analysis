@@ -177,3 +177,17 @@ It helps compare how much revenue was lost due to churn and how many users stopp
 The first month was excluded from the chart because churn requires a previous month for comparison.
 
 ![Churned Revenue and Churned Users](images/churned_revenue_churned_users.png)
+
+
+### Expansion vs Contraction MRR
+
+This chart compares Expansion MRR and Contraction MRR by month.
+
+Expansion MRR shows additional revenue from existing users who increased their payments compared to the previous month.
+Contraction MRR shows revenue decrease from existing users who paid less than in the previous month.
+
+The chart helps evaluate whether revenue growth from existing users is stronger than revenue loss from reduced payments.
+
+![Expansion vs Contraction MRR](images/expansion_vs_contraction_mrr.png)
+
+
