@@ -190,4 +190,10 @@ The chart helps evaluate whether revenue growth from existing users is stronger 
 
 ![Expansion vs Contraction MRR](images/expansion_vs_contraction_mrr.png)
 
+## Dashboard Rebuild Update
 
+The revenue metrics dataset was refreshed after updating the SQL query.  
+A new Tableau dashboard version was created and previous charts were rebuilt using the updated CSV dataset.
+
+The Back from Churn MRR chart was also recreated with the refreshed data.  
+The remaining chart to complete is Revenue Change Factors.
