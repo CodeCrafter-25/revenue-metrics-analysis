@@ -197,3 +197,18 @@ A new Tableau dashboard version was created and previous charts were rebuilt usi
 
 The Back from Churn MRR chart was also recreated with the refreshed data.  
 The remaining chart to complete is Revenue Change Factors.
+
+### Revenue Change Factors
+
+This chart shows the main factors that influence monthly revenue change.
+
+Positive revenue factors include New MRR, Expansion MRR, and Back from Churn MRR.
+Negative revenue factors include Churned Revenue and Contraction MRR.
+
+The line shows the overall Revenue Change by month.
+
+Current status: draft visualization.
+The chart was added as a dashboard progress preview and will be refined before the final dashboard version.
+
+![Revenue Change Factors](images/revenue_change_factors_preview.png)
+
