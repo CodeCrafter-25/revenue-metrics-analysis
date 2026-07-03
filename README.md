@@ -190,6 +190,19 @@ The chart helps evaluate whether revenue growth from existing users is stronger 
 
 ![Expansion vs Contraction MRR](images/expansion_vs_contraction_mrr.png)
 
+
+### Back from Churn MRR
+
+This dual-axis chart shows revenue and users who returned after churn.
+
+Bars represent Back from Churn MRR, which is revenue from users who stopped paying and later returned.
+The line represents the number of users who returned after churn.
+
+This chart helps understand how much recovered revenue comes from previously churned users.
+
+![Back from Churn MRR](images/back_from_churn_mrr.png)
+
+
 ## Dashboard Rebuild Update
 
 The revenue metrics dataset was refreshed after updating the SQL query.  
