@@ -205,15 +205,6 @@ This chart helps understand how much recovered revenue comes from previously chu
 
 ![Back from Churn MRR](images/back_from_churn_mrr.png)
 
-
-## Dashboard Rebuild Update
-
-The revenue metrics dataset was refreshed after updating the SQL query.  
-A new Tableau dashboard version was created and previous charts were rebuilt using the updated CSV dataset.
-
-The Back from Churn MRR chart was also recreated with the refreshed data.  
-The remaining chart to complete is Revenue Change Factors.
-
 ### Revenue Change Factors
 
 This chart shows the main factors that influence monthly revenue change.
@@ -227,4 +218,13 @@ Current status: draft visualization.
 The chart was added as a dashboard progress preview and will be refined before the final dashboard version.
 
 ![Revenue Change Factors](images/revenue_change_factors_preview.png)
+
+
+## Dashboard Rebuild Update
+
+The revenue metrics dataset was refreshed after updating the SQL query.  
+A new Tableau dashboard version was created and previous charts were rebuilt using the updated CSV dataset.
+
+The Back from Churn MRR chart was also recreated with the refreshed data.  
+The Revenue Change Factors visualization has been added as a draft and will be refined before the final dashboard is published.
 
