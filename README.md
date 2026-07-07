@@ -228,3 +228,10 @@ A new Tableau dashboard version was created and previous charts were rebuilt usi
 The Back from Churn MRR chart was also recreated with the refreshed data.  
 The Revenue Change Factors visualization has been added as a draft and will be refined before the final dashboard is published.
 
+## Dashboard Preview
+
+The first version of the Revenue Metrics Dashboard has been assembled in Tableau.
+
+This draft combines the main revenue, user, churn, and revenue change visualizations. The layout and formatting will be refined before the final dashboard is published.
+
+![Revenue Metrics Dashboard v1](images/revenue_metrics_dashboard_v1.png)
