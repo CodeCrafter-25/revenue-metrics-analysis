@@ -32,10 +32,11 @@ The dataset contains user payments, allowing tracking of monthly revenue, user r
 
 The first version of the interactive Revenue Metrics Dashboard is available on Tableau Public.
 
-[Open the interactive Tableau dashboard]([TABLEAU_PUBLIC_URL](https://public.tableau.com/views/Project2_Revenuemetricsanalysis_/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link))
+[Open the interactive Tableau dashboard](https://public.tableau.com/views/Project2_Revenuemetricsanalysis_/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 Current version: Dashboard v1.
 Chart formatting, dashboard layout, and final metric validation are still in progress.
+
 
 --- 
 
