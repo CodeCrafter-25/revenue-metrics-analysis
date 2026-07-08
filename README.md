@@ -142,7 +142,7 @@ revenue-metrics-analysis
 │   └── revenue_metrics.sql
 │
 └── dashboard
-    └── 
+    └── images
 ```
 
 ## Dashboard Progress
