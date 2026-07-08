@@ -5,7 +5,7 @@ Revenue Metrics Analysis using SQL and Tableau
 --- 
 ## Project Status
 
-Current status: Tableau dashboard development in progress.
+Current status: Tableau dashboard v1 published; final refinement in progress.
 
 Completed:
 
@@ -17,8 +17,7 @@ Next steps:
 
 * Refine chart formatting;
 * Validate the final metric values;
-* Assemble and publish the final Tableau dashboard.
-
+* Refine and publish the final version of the Tableau dashboard.
 
 --- 
 
@@ -26,6 +25,17 @@ Next steps:
 This project analyzes subscription-based revenue using SQL and Tableau.
 The goal is to understand revenue dynamics, user behavior, and key drivers of growth and decline.
 The dataset contains user payments, allowing tracking of monthly revenue, user retention, and churn.
+
+--- 
+
+## Live Dashboard
+
+The first version of the interactive Revenue Metrics Dashboard is available on Tableau Public.
+
+[Open the interactive Tableau dashboard]([TABLEAU_PUBLIC_URL](https://public.tableau.com/views/Project2_Revenuemetricsanalysis_/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link))
+
+Current version: Dashboard v1.
+Chart formatting, dashboard layout, and final metric validation are still in progress.
 
 --- 
 
