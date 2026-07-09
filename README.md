@@ -246,3 +246,5 @@ The first version of the Revenue Metrics Dashboard has been assembled in Tableau
 This draft combines the main revenue, user, churn, and revenue change visualizations. The layout and formatting will be refined before the final dashboard is published.
 
 ![Revenue Metrics Dashboard v1](images/revenue_metrics_dashboard_v1.png)
+
+Removed the column field label, changed month names to English, and improved labels in the New MRR and New Paid Users visualization.
