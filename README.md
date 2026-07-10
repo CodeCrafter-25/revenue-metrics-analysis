@@ -12,6 +12,7 @@ Completed:
 * Updated the SQL query and refreshed the CSV dataset;
 * Rebuilt the main Tableau visualizations using the updated data;
 * Added charts for MRR, Paid Users, ARPPU, New MRR, Churn, Expansion and Contraction MRR, Back from Churn MRR, and Revenue Change Factors.
+* Standardized month labels in English across the Tableau dashboard for consistent presentation.
 
 Next steps:
 
