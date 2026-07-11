@@ -143,18 +143,22 @@ user_activity AS (
 ## Repository Structure
 
 ```
+
 revenue-metrics-analysis
 │
 ├── README.md
 │
 ├── data
-│   └── 
+│   └── revenue metrics dataset files
 │
-├── sql
-│   └── revenue_metrics.sql
+├── docs
+│   └── project notes and metric documentation
 │
-└── dashboard
-    └── images
+├── images
+│   └── dashboard screenshots and chart previews
+│
+└── sql
+    └── revenue_metrics.sql
 ```
 
 ## Dashboard Progress
