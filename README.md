@@ -252,3 +252,18 @@ This draft combines the main revenue, user, churn, and revenue change visualizat
 
 ![Revenue Metrics Dashboard v1](images/revenue_metrics_dashboard_v1.png)
 
+### Revenue Change Factors
+
+This chart shows the main factors that influence monthly revenue change.
+
+Positive revenue factors include New MRR, Expansion MRR, and Back from Churn MRR.
+Negative revenue factors include Churned Revenue and Contraction MRR.
+
+The chart uses a categorical color legend to clearly separate each revenue factor.
+The line shows the overall Revenue Change by month.
+
+Current status: visualization improved; final dashboard formatting is still in progress.
+
+![Revenue Change Factors](images/revenue_change_factors_preview.png)
+
+
