@@ -225,14 +225,3 @@ The revenue metrics dataset was refreshed after updating the SQL query.
 The Tableau dashboard was rebuilt using the updated CSV dataset, including the main revenue, user, churn, expansion, contraction, back from churn, and revenue change visualizations.
 
 Current focus: final dashboard formatting, metric validation, and presentation improvements.
-
-
-## Dashboard Preview
-
-The first version of the Revenue Metrics Dashboard has been assembled in Tableau.
-
-This draft combines the main revenue, user, churn, and revenue change visualizations. The layout and formatting will be refined before the final dashboard is published.
-
-![Revenue Metrics Dashboard v1](images/revenue_metrics_dashboard_v1.png)
-
-
