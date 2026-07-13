@@ -3,24 +3,6 @@
 Revenue Metrics Analysis using SQL and Tableau
 
 --- 
-## Project Status
-
-Current status: Tableau dashboard v1 published; final refinement in progress.
-
-Completed:
-
-* Updated the SQL query and refreshed the CSV dataset;
-* Rebuilt the main Tableau visualizations using the updated data;
-* Added charts for MRR, Paid Users, ARPPU, New MRR, Churn, Expansion and Contraction MRR, Back from Churn MRR, and Revenue Change Factors.
-* Standardized month labels in English across the Tableau dashboard for consistent presentation.
-
-Next steps:
-
-* Refine chart formatting;
-* Validate the final metric values;
-* Refine and publish the final version of the Tableau dashboard.
-
---- 
 
 ## Project Overview
 This project analyzes subscription-based revenue using SQL and Tableau.
@@ -264,6 +246,4 @@ The line shows the overall Revenue Change by month.
 
 Current status: visualization improved; final dashboard formatting is still in progress.
 
-![Revenue Change Factors](images/revenue_change_factors_preview.png)
-
-
+![Revenue Change Factors](images/revenue_change_factors_preview.png).
