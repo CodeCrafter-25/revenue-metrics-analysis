@@ -8,6 +8,7 @@ Revenue Metrics Analysis using SQL and Tableau
 This project analyzes subscription-based revenue using SQL and Tableau.
 The goal is to understand revenue dynamics, user behavior, and key drivers of growth and decline.
 The dataset contains user payments, allowing tracking of monthly revenue, user retention, and churn.
+The dashboard now includes an Age filter, allowing users to analyze revenue metrics by customer age groups.
 
 --- 
 
