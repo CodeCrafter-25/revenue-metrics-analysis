@@ -11,7 +11,19 @@ The dataset contains user payments, allowing tracking of monthly revenue, user r
 The dashboard now includes an Age filter, allowing users to analyze revenue metrics by customer age groups.
 
 --- 
+## Project Status
 
+Current status: Tableau dashboard v1 is finalized visually and prepared for final portfolio documentation.
+
+Completed:
+- Built the main revenue metrics dashboard in Tableau Public.
+- Added key revenue metrics, including MRR, Paid Users, ARPPU, New MRR, Churned Revenue, Expansion MRR, Contraction MRR, Back from Churn MRR, LT, and LTV.
+- Refined the final Tableau dashboard formatting and applied a consistent color palette across the main charts.
+- Added and checked the Age filter for dashboard-level analysis.
+
+  
+--- 
+  
 ## Live Dashboard
 
 The first version of the interactive Revenue Metrics Dashboard is available on Tableau Public.
