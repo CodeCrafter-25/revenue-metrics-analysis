@@ -14,13 +14,15 @@ The dashboard now includes an Age filter, allowing users to analyze revenue metr
 
 ## Project Status
 
-Current status: Tableau dashboard v1 is finalized visually and prepared for final portfolio documentation.
+Current status: Dashboard v1 completed and published on Tableau Public.
 
 Completed:
-- Built the main revenue metrics dashboard in Tableau Public.
-- Added key revenue metrics, including MRR, Paid Users, ARPPU, New MRR, Churned Revenue, Expansion MRR, Contraction MRR, Back from Churn MRR, LT, and LTV.
+- Updated the SQL query and refreshed the CSV dataset;
+- Rebuilt the main Tableau visualizations using the updated data;
+- Added charts for MRR, Paid Users, ARPPU, New MRR, Churn, Expansion and Contraction MRR, Back from Churn MRR, LT, LTV, and Revenue Change Factors;
+- Added interactive filters for Game Name, Language, Month, and Age;
+- Standardized month labels in English across the Tableau dashboard;
 - Refined the final Tableau dashboard formatting and applied a consistent color palette across the main charts.
-- Added and checked the Age filter for dashboard-level analysis.
 
   
 --- 
@@ -139,20 +141,24 @@ user_activity AS (
 
 ## Repository Structure
 
-```
-
+```text
 revenue-metrics-analysis
 │
 ├── README.md
 │
-├── data
-│   └── revenue metrics dataset files
-│
 ├── docs
-│   └── project notes and metric documentation
+│   ├── metric_definitions.md
+│   └── dashboard_rebuild_notes.md
 │
 ├── images
-│   └── dashboard screenshots and chart previews
+│   ├── arppu_by_month.png
+│   ├── back_from_churn_mrr.png
+│   ├── churned_revenue_churned_users.png
+│   ├── expansion_vs_contraction_mrr.png
+│   ├── mrr_paid_users_trend.png
+│   ├── new_mrr_new_paid_users.png
+│   ├── revenue_change_factors_preview.png
+│   └── revenue_metrics_dashboard_final.png
 │
 └── sql
     └── revenue_metrics.sql
@@ -245,3 +251,8 @@ Current status: completed and included in the final Tableau dashboard.
 
 ![Revenue Change Factors](images/revenue_change_factors_preview.png).
 
+--- 
+
+## Dashboard Preview
+
+![Revenue Metrics Dashboard Final](images/revenue_metrics_dashboard_final.png)
