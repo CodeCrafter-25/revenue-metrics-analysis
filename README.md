@@ -11,6 +11,7 @@ The dataset contains user payments, allowing tracking of monthly revenue, user r
 The dashboard now includes an Age filter, allowing users to analyze revenue metrics by customer age groups.
 
 --- 
+
 ## Project Status
 
 Current status: Tableau dashboard v1 is finalized visually and prepared for final portfolio documentation.
@@ -23,15 +24,16 @@ Completed:
 
   
 --- 
-  
+
 ## Live Dashboard
 
-The first version of the interactive Revenue Metrics Dashboard is available on Tableau Public.
+The final version of the interactive Revenue Metrics Dashboard is available on Tableau Public.
 
-[Open the interactive Tableau dashboard](https://public.tableau.com/views/Project2_Revenuemetricsanalysis_/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+[Open the interactive Tableau dashboard](твоє_посилання_на_Tableau)
 
-Current version: Dashboard v1.
-Chart formatting, dashboard layout, and final metric validation are still in progress.
+Current version: Dashboard v1 completed.
+
+The dashboard uses a consistent color logic to make revenue growth, churn, contraction, returned users, and user-based metrics easier to distinguish.
 
 
 --- 
@@ -239,14 +241,7 @@ Negative revenue factors include Churned Revenue and Contraction MRR.
 The chart uses a categorical color legend to clearly separate each revenue factor.
 The line shows the overall Revenue Change by month.
 
-Current status: visualization improved; final dashboard formatting is still in progress.
+Current status: completed and included in the final Tableau dashboard.
 
 ![Revenue Change Factors](images/revenue_change_factors_preview.png).
 
-
-## Dashboard Development Update
-
-The revenue metrics dataset was refreshed after updating the SQL query.
-The Tableau dashboard was rebuilt using the updated CSV dataset, including the main revenue, user, churn, expansion, contraction, back from churn, and revenue change visualizations.
-
-Current focus: final dashboard formatting, metric validation, and presentation improvements.
