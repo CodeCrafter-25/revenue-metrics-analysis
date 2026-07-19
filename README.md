@@ -49,6 +49,15 @@ The dashboard uses a consistent color logic to make revenue growth, churn, contr
 
 This analysis helps product managers make data-driven decisions.
 
+
+## Key Insights
+
+- MRR increased during the observed period, supported by new paid users, expansion revenue, and users returning after churn.
+- Churned Revenue and Contraction MRR had a negative impact on monthly revenue dynamics.
+- Revenue Change Factors help explain whether monthly revenue growth was driven by new users, existing users, churn, contraction, or returning users.
+- ARPPU remained relatively stable, which suggests that revenue changes were mainly driven by user volume and retention behavior.
+- LT and LTV help evaluate the long-term value of paying users and the impact of retention on revenue.
+
 --- 
 
 ##  SQL Analysis
@@ -120,23 +129,25 @@ user_activity AS (
 
 --- 
 
-## Dashboard Plan
+## Dashboard Structure
 
-**The dashboard will include:**
+The final Tableau dashboard includes:
 
-- KPI section (MRR, Users, ARPPU, Churn Rate);
-- Revenue trend over time;
-- User growth and decline;
-- Revenue breakdown (New, Expansion, Contraction, Churn);
-- User flow (New vs Churned users);
-- Churn rate trend.
+- MRR and Paid Users Trend;
+- ARPPU by Month;
+- New MRR and New Paid Users;
+- Churned Revenue and Churned Users;
+- Expansion vs Contraction MRR;
+- Back from Churn MRR and Users;
+- LT and LTV;
+- Revenue Change Factors.
 
-**Filters:**
+Interactive filters:
+- Game Name;
 - Language;
-- Age;
-- Device type;
-- Game name.
-
+- Month;
+- Age.
+  
 --- 
 
 ## Repository Structure
