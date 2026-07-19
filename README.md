@@ -166,6 +166,7 @@ revenue-metrics-analysis
 │   ├── back_from_churn_mrr.png
 │   ├── churned_revenue_churned_users.png
 │   ├── expansion_vs_contraction_mrr.png
+│   ├── lt_and_ltv.png
 │   ├── mrr_paid_users_trend.png
 │   ├── new_mrr_new_paid_users.png
 │   ├── revenue_change_factors_preview.png
