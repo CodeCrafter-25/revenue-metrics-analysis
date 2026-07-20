@@ -49,15 +49,6 @@ The dashboard uses a consistent color logic to make revenue growth, churn, contr
 
 This analysis helps product managers make data-driven decisions.
 
-
-## Key Insights
-
-- MRR increased during the observed period, supported by new paid users, expansion revenue, and users returning after churn.
-- Churned Revenue and Contraction MRR had a negative impact on monthly revenue dynamics.
-- Revenue Change Factors help explain whether monthly revenue growth was driven by new users, existing users, churn, contraction, or returning users.
-- ARPPU remained relatively stable, which suggests that revenue changes were mainly driven by user volume and retention behavior.
-- LT and LTV help evaluate the long-term value of paying users and the impact of retention on revenue.
-
 --- 
 
 ##  SQL Analysis
@@ -131,22 +122,25 @@ user_activity AS (
 
 ## Dashboard Structure
 
-The final Tableau dashboard includes:
+The final Tableau dashboard includes the following visualizations:
 
 - MRR and Paid Users Trend;
 - ARPPU by Month;
-- New MRR and New Paid Users;
 - Churned Revenue and Churned Users;
+- New MRR and New Paid Users;
 - Expansion vs Contraction MRR;
 - Back from Churn MRR and Users;
 - LT and LTV;
 - Revenue Change Factors.
 
 Interactive filters:
+
 - Game Name;
 - Language;
 - Month;
 - Age.
+
+This structure allows users to analyze subscription revenue dynamics, user growth, churn, returning users, and long-term customer value in one dashboard.
   
 --- 
 
@@ -157,9 +151,13 @@ revenue-metrics-analysis
 │
 ├── README.md
 │
+├── data
+│   └── revenue_metrics_dataset.csv
+│
 ├── docs
-│   ├── metric_definitions.md
-│   └── dashboard_rebuild_notes.md
+│   ├── dashboard_design_notes.md
+│   ├── dashboard_rebuild_notes.md
+│   └── metric_definitions.md
 │
 ├── images
 │   ├── arppu_by_month.png
@@ -175,6 +173,8 @@ revenue-metrics-analysis
 └── sql
     └── revenue_metrics.sql
 ```
+
+
 
 ## Dashboard Progress
 
@@ -267,4 +267,22 @@ Current status: completed and included in the final Tableau dashboard.
 
 ## Dashboard Preview
 
+The final dashboard combines the main subscription revenue metrics into one interactive Tableau view.  
+It helps analyze monthly MRR, paid users, ARPPU, churn, expansion, contraction, returning users, LT, LTV, and overall revenue change factors.
+
+The dashboard uses a consistent color logic to separate revenue growth, revenue loss, churn, and user-based metrics.
+
 ![Revenue Metrics Dashboard Final](images/revenue_metrics_dashboard_final.png)
+
+---
+
+## Key Insights
+
+- MRR increased during the observed period, showing positive subscription revenue growth.
+- Revenue growth was mainly supported by New MRR, Expansion MRR, and users returning after churn.
+- Churned Revenue and Contraction MRR had a negative impact on monthly revenue dynamics.
+- ARPPU remained relatively stable, which suggests that changes in revenue were mainly driven by user volume, retention, churn, and expansion behavior.
+- Back from Churn MRR helped recover part of the lost revenue from previously churned users.
+- LT and LTV provide additional context for evaluating the long-term value of paying users.
+
+
