@@ -24,14 +24,13 @@ Completed:
 - Standardized month labels in English across the Tableau dashboard;
 - Refined the final Tableau dashboard formatting and applied a consistent color palette across the main charts.
 
-  
 --- 
 
 ## Live Dashboard
 
 The final version of the interactive Revenue Metrics Dashboard is available on Tableau Public.
 
-[Open the interactive Tableau dashboard](твоє_посилання_на_Tableau)
+[Open the interactive Tableau dashboard](https://public.tableau.com/views/Project2_Revenuemetricsanalysis_/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 Current version: Dashboard v1 completed.
 
