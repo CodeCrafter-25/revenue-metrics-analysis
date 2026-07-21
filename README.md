@@ -58,18 +58,22 @@ The analysis is based on monthly aggregated user revenue.
 1. Aggregated revenue per user per month;
 2. Used window functions (LAG, LEAD) to track user behavior;
 3. Calculated key metrics:
-    - MRR (Monthly Recurring Revenue);
-    - Paid Users;
-    - ARPPU;
-    - New Paid Users;
-    - New MRR;
-    - Churned Users;
-    - Churned Revenue;
-    - Churn Rate;
-    - Revenue Churn Rate;
-    - Expansion MRR;
-    - Contraction MRR.
-
+  - MRR (Monthly Recurring Revenue);
+  - Paid Users;
+  - ARPPU;
+  - New Paid Users;
+  - New MRR;
+  - Churned Users;
+  - Churned Revenue;
+  - Churn Rate;
+  - Revenue Churn Rate;
+  - Expansion MRR;
+  - Contraction MRR;
+  - Back from Churn Users;
+  - Back from Churn MRR;
+  - Net MRR Growth / Revenue Change;
+  - LT;
+  - LTV.
   
 
 **Example SQL snippet:**
